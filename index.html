@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Responsive Portfolio Landing Page</title>
+  <link rel="stylesheet" href="port.css">
+</head>
+<body>
+  
+  <section class="banner" id="sec">.
+    <header>
+      <a href="index.html" class="logo">DevFolio</a>
+      <div id="toggle" onclick="toggle()"></div>
+    </header>
+    <div class="content">
+      <h2>Olá a todos!<br>Eu sou <span>Sávio Ribeiro</span></h2>
+      
+         <p>
+          Tenho facilidade para aprender, pesquisar, sou uma pessoa interessada e adoro aprender novas tecnologias, sempre visando trazer melhorias e inovação nas equipes e sistemas em que atuo, acredito que o conhecimento que adquiri e através de cursos, fóruns e alguns sistemas desenvolvidos me fazem um profissional competitivo. Sou um aprendiz rápido e flexível, conheço diversas tecnologias além do HTML, CSS e JavaScript. Já trabalhei com API e fiz diversos consumos usando RESTFul. 
+         </p>
+     
+    
+      <div class="card">
+        <div class="imgBox">
+          <img src="images/savio.jpg">
+          <img src="images/savio.jpg">
+        </div>
+        <div class="details">
+          <div class="content">
+            <h2><span>Desenvoldedor Front-End</h2>
+              <h2><span>Desing Gráfico</span></h2>
+              <div class="social-icons">
+              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgBox">
+        <img src="images/skills.jpg">
+        <img src="images/skills.jpg">
+      </div>
+      <div class="details">
+        <div class="content">
+          <h2><span>Skills</h2>
+            <h4><span>Desenvolvimento web;</span></h4>
+            <h4><span>Acessibilidade;</span></h4>
+            <h4><span>API e SEO;</span></h4>
+            <h4><span>Desenvolvimento de</span></h4>
+            <h4><span>aplicações responsivas;</span></h4>
+            <h4><span>Soluções estilizadas;</span></h4>
+            <h4><span>Git;</span></h4>
+            <div class="social-icons">
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <ul class="sci">
+      
+      <li><a href="mailto:savio.mrs@hotmail.com"><img src="images/icons8-gmail.gif"></a></li>
+      <li><a href="https://www.linkedin.com/in/s%C3%A1vio-oliveira-0b1458131/"><img src="images/icons8-linkedin-circled.gif"></a></li>
+      <li><a href="https://github.com/saviomrs"><img src="images/icons8-github.gif"></a></li>
+    </ul>
+  </section>
+  <div id="navigation">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio1.html">Portfolio</a></li> 
+        <li><a href="contact.html">Contato</a></li>
+      </ul>
+    </div>
+  <script type="text/javascript">
+    function toggle(){
+      var sec = document.getElementById('sec');
+      var nav = document.getElementById('navigation');
+      sec.classList.toggle('active')
+      nav.classList.toggle('active')
+    }
+  </script>
+  
+</body>
+</html>
